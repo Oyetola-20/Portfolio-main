@@ -1,0 +1,155 @@
+@media all and (max-width: 990px) {
+  .content {
+    margin: 30px 60px 0;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 45%;
+    margin: 5px;
+  }
+
+  .banner {
+    flex-wrap: wrap;
+  }
+
+  .banner img {
+    flex: 45%;
+    margin: 5px;
+  }
+
+  .price {
+    flex-wrap: wrap;
+  }
+
+  .price .cta {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .main {
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 100%;
+    margin: 5px;
+  }
+
+  #message {
+    width: 100%;
+  }
+
+  input:nth-of-type(4) {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 760px) {
+  main,
+  .service,
+  section,
+  figcaption,
+  .testimonial,
+  .blog,
+  footer {
+    padding: 20px;
+  }
+
+  .about h2,
+  .about p:nth-child(1) {
+    text-align: center;
+  }
+
+  .card {
+    flex: 100%;
+  }
+
+  .banner img {
+    flex: 100%;
+    width: 100%;
+  }
+
+  .price .cta {
+    width: 100%;
+  }
+
+  aside span {
+    margin-top: 20px;
+  }
+
+  main {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  input:nth-of-type(4) {
+    width: 50%;
+  }
+
+  .section {
+    flex-wrap: wrap;
+  }
+
+  .section img {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .content {
+    line-height: 1;
+  }
+
+  .content h1 {
+    font-size: 70px;
+  }
+  .navbar {
+    padding: 10px;
+  }
+
+  #menu {
+    margin: 30px;
+  }
+
+  main{
+    position: relative;
+  }
+
+  main img {
+    margin-bottom: 50px;
+  }
+
+  /* .about #CV{
+    display: none;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* border: 2px solid green; */
+  
+  main .toggle{
+    display: block;
+    margin: 0 auto;
+  }
+  aside {
+    flex-direction: column;
+  }
+
+  .client1,
+  .client2 {
+    margin: 10px 20px 20px 40px;
+  }
+  .copyright {
+    flex-direction: column;
+  }
+}
