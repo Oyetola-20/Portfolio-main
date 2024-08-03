@@ -127,20 +127,11 @@
     margin-bottom: 50px;
   }
 
-  /* .about #CV{
-    display: none;
-    padding: 0;
+  #CV{
     position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-    /* margin: 0 auto; */
-    /* text-align: center; */
-    /* border: 2px solid green; */
-  
-  main .toggle{
-    display: block;
-    margin: 0 auto;
+    bottom: 20px;
   }
+  
   aside {
     flex-direction: column;
   }
