@@ -40,7 +40,8 @@
   }
 
   #message {
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
   }
 
   input:nth-of-type(4) {
@@ -101,6 +102,11 @@
   .section img {
     width: 100%;
   }
+
+  #message {
+    max-width: 100%;
+    min-width: 100%;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -143,4 +149,5 @@
   .copyright {
     flex-direction: column;
   }
+
 }

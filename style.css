@@ -581,10 +581,10 @@ input {
 input[type="submit"] {
   color: blueviolet;
   background-color: white;
-  padding: 5px;
+  padding: 5px 10px;
   transition: 0.5s;
   border-radius: 5px;
-  width: 11%;
+  width: fit-content;
   height: 40px;
   cursor: pointer;
 }
